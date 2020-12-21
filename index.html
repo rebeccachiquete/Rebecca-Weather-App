@@ -3,14 +3,84 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Quiz Yo Mind</title>
-            <link rel="stylesheet" href="./style.css">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./style.css">
     </head>
-
     <body>
 
 
+    
+      <div id="header">
+          <h1><input id="userInput" type="text"/>
+            <button id="searchButton">Search</button>
+            <div class="5dayforecast"></div></h1>
 
-        <script src="script.js"></script>   
+            <!-- <div><h5>Previous Cities Searched</h5></div>
+            <div class="one" id="prevCityList"></div> -->
+      </div>
+
+        <main>
+            <section class="Location">
+                <div class="City">City Place Holder</div>
+                <div class="date">Date Place Holder</div>
+            </section>
+            <div class="Current">
+                <div class="temp">76<span>°F</span></div>
+                <div class="weather">Weather Place Holder</div>
+                <div class="highLow">35°F / 120°F</div>
+            </div>
+        </main>
+        <br>
+        <div class="row fiveDay">
+            <div class="col-sm-12">
+                5 Day Forecast
+            </div>
+        </div>
+        <div class="container flex">
+            <div class="container flex" id="daysOne">
+                <section class="dailyBoxOne">
+                    <div class="dateOne">Day1 Place Holder</div>
+                    <div class="tempOne">76<span>°F</span></div>
+                    <div class="weatherOne">Weather Place Holder</div>
+                    <div class="highLowOne">35°F / 120°F</div>
+                </section>
+            </div>
+            <div class="container flex" id="daysTwo">
+                <section class="dailyBoxTwo">
+                    <div class="dateTwo">Day2 Place Holder</div>
+                    <div class="tempTwo">76<span>°F</span></div>
+                    <div class="weatherTwo">Weather Place Holder</div>
+                    <div class="highLowTwo">35°F / 120°F</div>
+                </section>
+            </div>
+            <div class="container flex" id="daysThree">
+                <section class="dailyBoxThree">
+                    <div class="dateThree">Day3 Place Holder</div>
+                    <div class="tempThree">76<span>°F</span></div>
+                    <div class="weatherThree">Weather Place Holder</div>
+                    <div class="highLowThree">35°F / 120°F</div>
+                </section>
+            </div>
+            <div class="container flex" id="daysFour">
+                <section class="dailyBoxFour">
+                    <div class="dateFour">Day4 Place Holder</div>
+                    <div class="tempFour">76<span>°F</span></div>
+                    <div class="weatherFour">Weather Place Holder</div>
+                    <div class="highLowFour">35°F / 120°F</div>
+                </section>
+            </div>
+            <div class="container flex" id="daysFive">
+                <section class="dailyBoxFive">
+                    <div class="dateFive">Day5 Place Holder</div>
+                    <div class="tempFive">76<span>°F</span></div>
+                    <div class="weatherFive">Weather Place Holder</div>
+                    <div class="highLowFive">35°F / 120°F</div>
+                </section>
+            </div>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+        <script src="script.js"></script>
     </body>
 </html>

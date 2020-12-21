@@ -1,0 +1,129 @@
+/* #header {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    
+}
+
+#searchBox {
+    background-color: blue;
+}
+
+.icon img{
+    max-width: 30%;
+}
+
+
+.temp
+    {
+        font-size: small;
+    } */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url('MFcMmx9.jpg');
+    background-size: cover;
+    background-position: top center;
+
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+# userInput {
+    opacity: 0.5;
+    background-color: white;
+}
+
+#searchButton {
+    opacity: 0.5;
+    color: rgb(85, 2, 75);
+    background-color: white;
+}
+
+main {
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    opacity: 0.5;
+    color: rgb(85, 2, 75);
+    margin-right: 45%;
+    margin-left: 45%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.fiveDay {
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#daysOne {
+    background-color: white;
+    opacity: 0.5;
+    color: rgb(85, 2, 75);
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#daysTwo {
+    background-color: white;
+    opacity: 0.5;
+    color: rgb(85, 2, 75);
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#daysThree {
+    background-color: white;
+    opacity: 0.5;
+    color: rgb(85, 2, 75);
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#daysFour {
+    background-color: white;
+    opacity: 0.5;
+    color: rgb(85, 2, 75);
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#daysFive {
+    background-color: white;
+    opacity: 0.5;
+    color: rgb(85, 2, 75);
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.one {
+    background-color: white;
+    opacity: 0.5;
+    color: rgb(85, 2, 75);
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
